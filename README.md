@@ -54,7 +54,7 @@ if not api.connect():
 else:
     print("connection to station by wifi")
 ```
-と入力してください。下の出力部分に「connection to station by wifi」と表示されます。
+と入力してください。Hulaに接続が成功したら、VScodeの下の出力部分に「connection to station by wifi」と表示されます。
 ![代替テキスト](./image/vscode10.png)
 
 以上でVScodeの設定とHula-jpへの接続になります。
