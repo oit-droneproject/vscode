@@ -25,7 +25,14 @@ https://code.visualstudio.com/
 
 ![代替テキスト](./image/vscode5.png)
 
+日本語化すると便利です。まずは拡張機能を押して、検索で「japanese」と入れてください。
+マイクロソフトの日本語化の拡張機能を入れてください。
+導入したあとはVScodeを再起動してください。
+
 ![代替テキスト](./image/vscode6.png)
+
+そのあとにPythonに対する拡張機能を導入してください。
+同じく拡張機能の検索で「Python」と入力してください。
 
 ![代替テキスト](./image/vscode7.png)
 
