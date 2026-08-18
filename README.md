@@ -41,7 +41,7 @@ VScodeはフォルダを規定して使用します。
 
 ![代替テキスト](./image/vscode8.png)
 
-Hula-jpの裏面にSSIDが記載されているのでそのIDに接続してください。
+Hulaの裏面にSSIDが記載されているのでそのIDに接続してください。
 Passwordは「12345678」です。
 ![代替テキスト](./image/vscode9.png)
 
@@ -57,4 +57,4 @@ else:
 と入力してください。Hulaに接続が成功したら、VScodeの下の出力部分に「connection to station by wifi」と表示されます。
 ![代替テキスト](./image/vscode10.png)
 
-以上でVScodeの設定とHula-jpへの接続になります。
+以上でVScodeの設定とHulaへの接続になります。
