@@ -7,11 +7,16 @@ https://code.visualstudio.com/
 
 ![vscode1](./image/vscode1.png)
 
-
+.exeファイルを保存してクリックして実行してください。
 
 ![代替テキスト](./image/vscode2.png)
 
+ライセンス事項を読んだ後に「同意」してください。
+
 ![代替テキスト](./image/vscode3.png)
+
+基本は「次へ」を教えてください。
+インストールする場所やショートカットをカスタマイズすることもできます。
 
 ![代替テキスト](./image/vscode4.png)
 
