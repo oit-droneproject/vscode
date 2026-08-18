@@ -1,60 +1,85 @@
-# VScode
-VSCode（Visual Studio Code）は、マイクロソフトが開発したエディターです。様々な拡張機能を入れることが可能です。
+# VSCode のインストールと Hula への接続
 
-以下のページの「Download for Windows」からダウンロードしてください。
+VSCode（Visual Studio Code）は、マイクロソフトが開発した無料のコードエディターです。動作が軽く、豊富な拡張機能を追加することで、さまざまなプログラミング言語や開発環境に対応させることができます。
 
-https://code.visualstudio.com/
+このページでは、Windows 版 VSCode のインストールから、日本語化・Python 環境の準備、そしてドローン「Hula」への接続までを順を追って説明します。
+
+##  インストーラーのダウンロード
+
+まず、公式サイトにアクセスし、「Download for Windows」ボタンからインストーラーをダウンロードします。
+
+公式サイト: https://code.visualstudio.com/
 
 ![vscode1](./image/vscode1.png)
 
-.exeファイルを保存してクリックして実行してください。
+##  インストーラーの実行
 
-![代替テキスト](./image/vscode2.png)
+ダウンロードした `***.exe` ファイルを保存し、ダブルクリックして実行します。
 
-ライセンス事項を読んだ後に「同意」してください。
+![vscode2](./image/vscode2.png)
 
-![代替テキスト](./image/vscode3.png)
+## 3. ライセンスへの同意
 
-基本は「次へ」を押してください。
-インストールする場所やショートカットをカスタマイズすることもできます。
+使用許諾契約書（ライセンス事項）の内容を確認し、「同意する」を選択して「次へ」を押します。
 
-![代替テキスト](./image/vscode4.png)
+![vscode3](./image/vscode3.png)
 
-基本は「完了」を押してください。
-インストールする場所やショートカットをカスタマイズすることもできます。
+## インストール設定
 
-![代替テキスト](./image/vscode5.png)
+基本的にはそのまま「次へ」を押して進めます。必要に応じて、インストール先のフォルダーやショートカットの作成などをカスタマイズすることもできます。
 
-日本語化すると便利です。まずは拡張機能を押して、検索で「japanese」と入れてください。
-マイクロソフトの日本語化の拡張機能を入れてください。
-導入したあとはVScodeを再起動してください。
+![vscode4](./image/vscode4.png)
 
-![代替テキスト](./image/vscode6.png)
+##  インストールの完了
 
-そのあとにPythonに対する拡張機能を導入してください。
-同じく拡張機能の検索で「Python」と入力してください。
+設定内容を確認したら「インストール」を押し、処理が完了するまで待ちます。完了したら「完了」を押してインストーラーを閉じます。
 
-![代替テキスト](./image/vscode7.png)
+![vscode5](./image/vscode5.png)
 
-VScodeはフォルダを規定して使用します。
-例として「drone」というフォルダを作成してからそこに「test01.py」とファイルを作成してください。
+##  日本語化（拡張機能の導入）
 
-![代替テキスト](./image/vscode8.png)
+VSCode は拡張機能で日本語化できます。左側の「拡張機能（Extensions）」アイコンを押し、検索欄に「japanese」と入力してください。表示されたマイクロソフト製の日本語化拡張機能（Japanese Language Pack）をインストールします。
 
-Hulaの裏面にSSIDが記載されているのでそのIDに接続してください。
-Passwordは「12345678」です。
-![代替テキスト](./image/vscode9.png)
+導入したあとは、VSCode を再起動すると日本語表示が反映されます。
 
-接続したあとは、
+![vscode6](./image/vscode6.png)
+
+##  Python 拡張機能の導入
+
+続いて、Python を扱うための拡張機能を導入します。同じく「拡張機能」の検索欄に「Python」と入力し、マイクロソフト製の Python 拡張機能をインストールしてください。
+
+![vscode7](./image/vscode7.png)
+
+##  作業フォルダーの作成
+
+VSCode はフォルダー単位で作業します。ここでは例として「drone」というフォルダーを作成し、その中に「test01.py」というファイルを作成してください。
+
+![vscode8](./image/vscode8.png)
+
+##  Hula への Wi-Fi 接続
+
+Hula 本体の裏面に SSID が記載されています。パソコンの Wi-Fi 設定から、その SSID に接続してください。
+
+パスワードは「12345678」です。
+
+![vscode9](./image/vscode9.png)
+
+##  接続の確認
+
+Wi-Fi の接続が完了したら、`test01.py` に以下のコードを入力して実行してください。
+
 ```python
 import pyhula
+
 api = pyhula.UserApi()
 if not api.connect():
     print("connect error")
 else:
     print("connection to station by wifi")
 ```
-と入力してください。Hulaに接続が成功したら、VScodeの下の出力部分に「connection to station by wifi」と表示されます。
-![代替テキスト](./image/vscode10.png)
 
-以上でVScodeの設定とHulaへの接続になります。
+Hula への接続に成功すると、VSCode 下部の出力（ターミナル）部分に「connection to station by wifi」と表示されます。
+
+![vscode10](./image/vscode10.png)
+
+以上で、VSCode の設定と Hula への接続は完了です。
