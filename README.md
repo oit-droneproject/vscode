@@ -46,7 +46,7 @@ Passwordは「12345678」です。
 ![代替テキスト](./image/vscode9.png)
 
 接続したあとは、
-```ptyhon
+```python
 import pyhula
 api = pyhula.UserApi()
 if not api.connect():
