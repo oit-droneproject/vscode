@@ -41,8 +41,18 @@ VScodeはフォルダを規定して使用します。
 
 ![代替テキスト](./image/vscode8.png)
 
-
-
+Hula-jpの裏面にSSIDが記載されているのでそのIDに接続してください。
+Passwordは「12345678」です。
 ![代替テキスト](./image/vscode9.png)
 
+接続したあとは、
+```ptyhon
+import pyhula
+api = pyhula.UserApi()
+if not api.connect():
+    print("connect error")
+else:
+    print("connection to station by wifi")
+```
+と入力してください。下の出力部分に「connection to station by wifi」と表示されます。
 ![代替テキスト](./image/vscode10.png)
