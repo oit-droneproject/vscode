@@ -36,7 +36,12 @@ https://code.visualstudio.com/
 
 ![代替テキスト](./image/vscode7.png)
 
+VScodeはフォルダを規定して使用します。
+例として「drone」というフォルダを作成してからそこに「test01.py」とファイルを作成してください。
+
 ![代替テキスト](./image/vscode8.png)
+
+
 
 ![代替テキスト](./image/vscode9.png)
 
