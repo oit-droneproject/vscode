@@ -54,13 +54,26 @@ VSCode は拡張機能で日本語化できます。左側の「拡張機能（E
 
 VSCode はフォルダーを規定して作業することができます。ここでは例としてデスクトップに「drone」というフォルダーを作成し、その中に「test.py」というファイルを作成してください。
 デスクトップで右のクリックを押して、フォルダーを押してください。
+
 ![makefile](./image/makefile.png)
+
 フォルダーの名前は「ドローン」に設定してください。
+
 ![makefile](./image/filedrone.png)
+
 「ファイル」の「フォルダーを開く...」を選択してください。
+
 ![vscode8](./image/vsocdefolder1.png)
+
 先ほど作成した「drone」のフォルダーを選択してください。
+
 ![vscode8](./image/vsocdefolder2-1.png)
+
+「エクスプローラー」の「新しいファイル..」を教えてください。
+ファイル名は「test.py」としてください。
+
+![vscode9](./image/testpy1.png)
+
 ##  Hula への Wi-Fi 接続
 
 Hula 本体の裏面に SSID が記載されています。パソコンの Wi-Fi 設定から、その SSID に接続してください。
@@ -71,7 +84,7 @@ Hula 本体の裏面に SSID が記載されています。パソコンの Wi-Fi
 
 ##  接続の確認
 
-Wi-Fi の接続が完了したら、`test01.py` に以下のコードを入力して実行してください。
+Wi-Fi の接続が完了したら、`test.py` に以下のコードを入力して実行してください。
 
 ```python
 import pyhula
@@ -82,6 +95,8 @@ if not api.connect():
 else:
     print("connection to station by wifi")
 ```
+
+![vscode9](./image/testpy2.png)
 
 Hula への接続に成功すると、VSCode 下部の出力（ターミナル）部分に「connection to station by wifi」と表示されます。
 
