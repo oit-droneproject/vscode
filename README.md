@@ -60,6 +60,7 @@ VSCode はフォルダーを規定して作業することができます。こ�
 「ファイル」の「フォルダーを開く...」を選択してください。
 ![vscode8](./image/vsocdefolder1.png)
 先ほど作成した「drone」のフォルダーを選択してください。
+![vscode8](./image/vsocdefolder2.png)
 ##  Hula への Wi-Fi 接続
 
 Hula 本体の裏面に SSID が記載されています。パソコンの Wi-Fi 設定から、その SSID に接続してください。
