@@ -56,7 +56,7 @@ VSCode はフォルダーを規定して作業することができます。こ�
 デスクトップで右のクリックを押して、フォルダーを押してください。
 ![makefile](./image/makefile.png)
 フォルダーの名前は「ドローン」に設定してください。
-![makefile](./image/makefile.png)
+![makefile](./filedrone.png)
 「ファイル」の「フォルダーを開く...」を選択してください。
 ![vscode8](./image/vsocdefolder1.png)
 先ほど作成した「drone」のフォルダーを選択してください。
