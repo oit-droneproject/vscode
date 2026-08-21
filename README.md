@@ -95,6 +95,7 @@ if not api.connect():
 else:
     print("connection to station by wifi")
 ```
+入力すると以下のような画面が表示されます。
 
 ![vscode9](./image/testpy2.png)
 
