@@ -42,13 +42,13 @@ VSCode は拡張機能で日本語化できます。左側の「拡張機能（E
 
 導入したあとは、VSCode を再起動すると日本語表示が反映されます。
 
-![vscode6](./image/vscode6.png)
+![vscode6](./image/vscode6-1.png)
 
 ##  Python 拡張機能の導入
 
 続いて、Python を扱うための拡張機能を導入します。同じく「拡張機能」の検索欄に「Python」と入力し、マイクロソフト製の Python 拡張機能をインストールしてください。
 
-![vscode7](./image/vscode7.png)
+![vscode7](./image/vscode7-1.png)
 
 ##  作業フォルダーの作成
 
