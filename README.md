@@ -74,17 +74,8 @@ VSCode はフォルダーを規定して作業することができます。こ�
 
 ![vscode9](./image/testpy1.png)
 
-##  Hula への Wi-Fi 接続
-
-Hula 本体の裏面に SSID が記載されています。パソコンの Wi-Fi 設定から、その SSID に接続してください。
-
-パスワードは「12345678」です。
-
-![vscode9](./image/vscode9.png)
-
-##  接続の確認
-
-Wi-Fi の接続が完了したら、`test.py` に以下のコードを入力して実行してください。
+ファイルを作成したあとに以下のコードをコピーして
+「test.py」に貼り付けてください。
 
 ```python
 import pyhula
@@ -98,6 +89,18 @@ else:
 入力すると以下のような画面が表示されます。
 
 ![vscode9](./image/testpy2.png)
+
+##  Hula への Wi-Fi 接続と確認
+
+Hula 本体の裏面に SSID が記載されています。パソコンの Wi-Fi 設定から、その SSID に接続してください。
+
+パスワードは「12345678」です。
+
+![vscode9](./image/vscode9.png)
+
+
+Wi-Fi の接続が完了したら、再生マークの実行ボタンを教えてください。
+
 
 Hula への接続に成功すると、VSCode 下部の出力（ターミナル）部分に「connection to station by wifi」と表示されます。
 
