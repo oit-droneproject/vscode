@@ -106,7 +106,7 @@ Wi-Fi の接続が完了したら、再生マークの実行ボタンを押し�
 Pythonの通信をファイアウォールで許可するには、ポップアップ画面で「アクセスを許可する」をクリックしてください。
 Hula への接続に成功すると、VSCode 下部の出力（ターミナル）部分に「connection to station by wifi」と表示されます。
 
-![vscode10](./image/vscode10.png)
+![vscode10](./image/vscodelast.png)
 
 以上で、VSCode の設定と Hula への接続は完了です。
 
