@@ -95,7 +95,7 @@ else:
 ![vscode9](./image/testpy2.png)
 
 ## Hula への Wi-Fi 接続と確認
-まずHula 本体に電源を入れてください。その後にHulaから電波を出すことができます。
+まずHula 本体に電源を入れてください。その後にHulaから電波がでます。
 
 Hula 本体の裏面に SSID が記載されています。パソコンの Wi-Fi 設定から、その SSID に接続してください。
 
