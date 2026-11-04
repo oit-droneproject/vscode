@@ -144,7 +144,7 @@ connectの引数にIPアドレスを書くことで接続することができ�
 import pyhula
 
 api = pyhula.UserApi()
-if not api.connect(192.168.100.132):
+if not api.connect("192.168.100.132"):
     print("connect error")
 else:
     print("connection to station by wifi")
